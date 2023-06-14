@@ -1,0 +1,86 @@
+ul{
+		padding-left: 0px;
+	}
+
+	.pricing-plan-title-style2::before{border-left:20px solid transparent;left:0;border-top:30px solid;border-bottom:30px solid;}
+.pricing-plan-title-style2::after{border-right:15px solid transparent;right:0;border-top:30px solid;border-bottom:30px solid;}
+.priceplan-title-style2-before::before {content: "";position: relative;top: 60px;width: 10%;bottom: 0;display: inline-table;left: 0;}.priceplan-title-style2-before::after {content: "";position: relative;top: -60px;width: 10%;bottom: 0;display: inline-table;right: 0;left: 90%;}
+.pricing-plan-title-style2.pricing-plan-style2-bg::before, .pricing-plan-title-style2.pricing-plan-style2-bg::after{border-top-color:#383ebf;border-bottom-color:#383ebf;}
+.pricing-plan-title-style2 h3{background-color:#383ebf;margin-left:10%;margin-right:10%;padding:15px 0 14px;height:60px;margin-top:0;margin-bottom:0;text-align:center;color:#fff;text-transform:uppercase;font-size:28px;font-weight:bold;}
+.pricing-plan.active .pricing-plan-title-style2.pricing-plan-style2-bg.priceplan-title-style2-before.clearfix{margin-top:-10px;}
+.pricing-plan-2 .pricing-plan-wrap{color:#000;background-color:#eaeff9;border-radius:0 0 8px 8px;}
+.pricing-plan-2 .pricing-plan-wrap:hover{color:#fff;background-color:#383ebff5;}
+.pricing-plan-2{padding:60px 0 60px;background-color:#fff;}
+.pricing-plan-2 .pricing-table{padding:0 15px 30px;}
+.pricing-plan-2 .pricing-plan{float:left;margin:30px 0;width:33.33%;position:relative;}
+.pricing-plan-2 .pricing-table .pricing-plan:first-child{border-right:none;border-radius:8px 0 0 8px;}
+.pricing-plan-2 .pricing-table .pricing-plan:last-child{border-left:none;border-radius:0 8px 8px 0;}
+.pricing-plan-2 .pricing-plan.active{color:#fff;margin:0;padding:10px 0;z-index:2;}
+.pricing-plan-2 .pricing-plan-wrap{text-align:center;border:none;padding:50px 20px;margin-top: -60px;}
+.pricing-plan-2 .pricing-plan.active .price-holder{padding:10px 0;}
+.pricing-plan-2 .active .pricing-plan-wrap a.btn{margin:50px 0 0;}
+.pricing-plan-2 .btn.btn-link.change-plan{border:1px solid;border-radius:4px;color:#000;font-weight:bold;margin:0 0 30px;padding:6px 20px;text-decoration:none;}
+.pricing-plan-2 .pricing-plan.active .btn.btn-link.change-plan{color:#fff;}
+.pricing-plan-2 .pricing-plan-wrap a.btn{margin:30px 0 0;text-transform:capitalize;}
+.pricing-plan-2 .price-holder p{font-size:36px;line-height:1;font-weight:bold;margin:0 0 30px;}
+.pricing-plan-2 .pricing-plan.active .price-holder p{padding:10px 0 20px;}
+.pricing-plan-2 .price-wrap sup{font-size:60%;top:-0.75em;}
+.pricing-plan-2 .pricing-plan-wrap p sub{bottom:0;font-size:15px;}
+.pricing-plan-2 .pricing-plan ul{margin:0;}
+.pricing-plan-2 .pricing-plan li{border-top:1px dotted;padding:10px;}
+.pricing-plan-2 .pricing-plan li:last-child{border-bottom:1px dotted;}
+.pricing-table {
+    display: contents;
+}
+@media (min-width: 993px){
+    .pricing-plan-2 .active .pricing-plan-wrap{background-color:#383ebf;color:#fff;border-radius:0 0 8px 8px;}
+}
+@media screen and (max-width:992px){
+    .pricing-plan-2 .pricing-plan, .pricing-plan-2 .pricing-plan.active, 
+    .pricing-plan-2 .pricing-table .pricing-plan:last-child, 
+    .pricing-plan-2 .pricing-table .pricing-plan:first-child{
+        border-radius:8px;
+        margin:0 auto;
+        width:90%;
+        max-width: 540px;
+
+    }
+    .pricing-plan-title-style2 h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .pricing-plan-2 .pricing-plan-wrap h3{
+        font-size:24px;
+    }
+}
+.btn-get-started {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: #000;
+    background: #ffc502;
+    border-radius: 10px;
+}
+a.btn-get-started:hover{
+    color: #000;
+}
+.ybtn-accent-color{
+    font-size: 24px;
+}
+@media(max-width: 768px){
+    .ybtn-accent-color {
+        font-size: 20px;
+    }
+}
+@media(max-width: 425px){
+    .ybtn-accent-color {
+        font-size: 14px;
+    }
+}
